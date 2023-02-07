@@ -9,5 +9,5 @@ app = Flask(__name__)
 def index():
     return render_template(
     'index.html',
-    utc_dt = datetime.datetime.utcnow()
+    # utc_dt = datetime.datetime.utcnow()
     )
